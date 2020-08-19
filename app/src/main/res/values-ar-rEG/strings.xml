@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">Grocery Delivery</string>
+    <string name="currency">ر.س</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="txtCredits"><a href="http://www.google.com">Google</a></string>
+
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_search">بحث</string>
+    <string name="search_hint">أكتب هنا…</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="assign">تعيين الأمر بنجاح</string>
+    <string name="back">عد</string>
+    <string name="nav_terms">البنود و الظروف</string>
+    <string name="unit">وحدة</string>
+    <string name="tit">عنوان</string>
+    <string name="prd_id">معرف المنتج</string>
+    <string name="pr">السعر</string>
+    <string name="inc">زيادة راتب</string>
+    <string name="cat">معرف الفئة</string>
+    <string name="un_v">قيمةالوحدة</string>
+    <string name="pay_m">طريقة الدفع</string>
+    <string name="st">الحالة</string>
+    <string name="id">هوية شخصية</string>
+    <!-- string.xml -->
+    <string name="user_id">هوية المستخدم</string>
+    <string name="nm">اسم</string>
+    <string name="ph">هاتف</string>
+    <string name="em">البريد الإلكتروني</string>
+    <string name="add_pur">أضف شراء</string>
+    <string name="today_order">اليوم أمر</string>
+    <string name="nav_dashboard">لوحة القيادة</string>
+    <string name="nav_app_user">مستخدم التطبيق</string>
+    <string name="nav_Products">منتجات</string>
+    <string name="nav_stock_update">تحديث المخزون</string>
+    <string name="nav_order">أوامر</string>
+    <string name="nav_stock">مخزون</string>
+    <string name="nav_edit_profile">تعديل الملف الشخصي</string>
+    <string name="nav_logout">تسجيل الخروج</string>
+    <string name="orders">الطلبات</string>
+    <string name="pastorder">الطلبات السابقة</string>
+    <string name="orderdetail">تفاصيل الطلب</string>
+    <string name="mark">تأكيد التسليم</string>
+    <string name="fire">Firebase</string>
+    <string name="continue_btn">استمر</string>
+    <string name="sv">حفظ</string>
+    <string name="firebas">نشاط Firebase</string>
+    <string name="dis">عرض الرمز المميز</string>
+    <string name="up">رفع</string>
+    <string name="chs">أختر</string>
+    <string name="clr">واضح</string>
+    <string name="btn_snd">إرسال</string>
+    <string name="btn_signin">تسجيل الدخول</string>
+    <string name="next_order">طلب اليوم التالي</string>
+    <!-- activity_login.xml -->
+    <string name="et_login_phone_hint">رقم الجوال (مطلوب)</string>
+    <string name="tv_login_email">رقم المعرف</string>
+    <string name="tv_login_password">كلمة المرور مطلوبة)</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_send">إرسال</string>
+    <string name="tv_login_note">قبل متابعة التطبيق ، يجب عليك التحقق من رقم هاتفك المحمول. سيقوم نظامنا بإرسال رمز OTP الخاص بك على رقم الهاتف المحمول المسجل
+</string>
+
+    <!-- activity_register.xml -->
+    <string name="tv_reg">تسجيل</string>
+    <string name="tv_reg_name_hint">الاسم (مطلوب)</string>
+    <string name="tv_reg_pincode">الرمز السري / رمز المنطقة / الرمز البريدي (مطلوب)</string>
+    <string name="tv_reg_socity">المجتمع / شقة (مطلوب)</string>
+    <string name="btn_reg_socity_choose">اختر المجتمع ...</string>
+    <string name="tv_reg_house">رقم المنزل (مطلوب)</string>
+    <string name="btn_reg_update">تحديث الملف</string>
+    <string name="et_reg_search">مجتمع البحث ...</string>
+    <string name="tv_reg_note">ملاحظة: الخدمة متاحة لل RAJKOT فقط</string>
+    <string name="tv_reg_address">عنوان (مطلوب)</string>
+    <string name="et_reg_address">العنوان الكامل</string>
+
+    <!-- fragment_cart.xml -->
+    <string name="tv_cart_title">عربة التسوق</string>
+    <string name="tv_cart_clear">مسح كل المنتجات</string>
+    <string name="tv_cart_checkout">متابعة الخروج</string>
+    <string name="tv_cart_total">مجموع:\u0020</string>
+    <string name="tv_cart_item">العناصر:\u0020</string>
+    <string name="tv_cart_rs">\u0020روبية</string>
+
+    <!-- fragment_delivery_time.xml -->
+    <string name="tv_del_title">تاريخ التسليم / الوقت</string>
+    <string name="tv_del_address">عنوان التسليم</string>
+    <string name="et_del_address_hint">أدخل عنوان التسليم ..</string>
+    <string name="tv_del_continue">تواصل مع الوقت</string>
+    <string name="tv_del_date">اختر تاريخ التسليم</string>
+    <string name="tv_del_time">اختيار وقت التسليم</string>
+    <string name="tv_del_date_time">بيانات التسليم / الوقت</string>
+    <string name="tv_total_item_amount">مجموع البنود والمقدار</string>
+    <string name="tv_total_total">المبلغ الإجمالي</string>
+
+    <!-- fragment_home.xml -->
+    <string name="tv_home_cat">منتجات</string>
+    <string name="tv_home_view">عرض الكل</string>
+<string name="place_on">التاريخ:</string>
+    <string name="rec_nm">اسم المستلم</string>
+    <string name="rec_num">رقم المستلم</string>
+    <string name="tt_t">مجموع العناصر</string>
+    <string name="tracking_st">حالة التتبع</string>
+    <string name="hus_n">رقم المنزل.</string>
+    <!-- fragment_Wallet.xml -->
+    <string name="tv_app_name">محفظة نقود</string>
+    <!-- fragment_Reward.xml -->
+    <string name="tv_toolbar_name">المكافآت</string>
+    <!-- row_product_rv.xml -->
+    <string name="tv_pro_add">إضافة</string>
+    <string name="tv_pro_update">تحديث</string>
+    <string name="tv_pro_price">السعر لكل\u0020</string>
+    <string name="tv_pro_rs">\u0020Rs.\u0020</string>
+    <string name="tv_pro_total">مجموع:</string>
+
+    <!-- fragment_confirm_order.xml -->
+    <string name="tv_conf_order_title">بيانات الدفع</string>
+
+    <!-- fragment_my_order_detail.xml -->
+    <string name="tv_order_cancle">الغاء الطلب</string>
+    <string name="tv_order_summery">ملخص</string>
+    <string name="tv_order_total">المجموع: روبية</string>
+    <string name="tv_order_qty">كمية</string>
+    <string name="tv_order_rs">روبية.</string>
+
+    <!-- fragment_order_thanks.xml -->
+    <string name="tv_thanks_title">شكرا لطلبك.</string>
+    <string name="tv_thanks_home">تواصل المنزل</string>
+    <string name="tv_thanks_order">تابع طلبي</string>
+    <string name="cust_ph">هاتف العميل</string>
+    <!-- Forgot password -->
+    <string name="forgot">هل نسيت كلمة المرور ؟</string>
+    <string name="assign_ord_de">تعيين الطلب للتسليم</string>
+    <string name="order_id">رقم الطلب</string>
+    <string name="cust_name">اسم الزبون</string>
+    <!-- Code message and concat  string -->
+    <string name="my_order">طلباتي</string>
+    <string name="edit_profile">تحرير الملف الشخصي</string>
+    <string name="delivery">تسليم</string>
+    <string name="delivery_date">تاريخ التسليم:</string>
+    <string name="please_select_date">يرجى تحديد التاريخ</string>
+    <string name="no_rcord_found">تم العثور على أي سجل</string>
+    <string name="connection_time_out">وقت الاتصال تنتهي</string>
+    <string name="add_delivery_address">أضف عنوان التسليم</string>
+    <string name="order_now">اطلب الآن</string>
+    <string name="payment_detail">تفاصيل الدفع</string>
+    <string name="delivery_time">وقت التسليم</string>
+    <string name="please_enter_pincode">يرجى إدخال رمز PIN</string>
+    <string name="receiver_mobile_number">رقم الهاتف المحمول للمستلم (مطلوب)</string>
+    <string name="receiver_name_req">اسم المستلم (مطلوب)</string>
+    <string name="phone_too_short">هاتف قصير جدا</string>
+    <string name="please_add_address">يرجى إضافة العنوان</string>
+    <string name="please_select_address">يرجى تحديد العنوان</string>
+    <string name="please_select_date_time">يرجى تحديد التاريخ والوقت</string>
+    <string name="profile_updated">تحديث الملف الشخصي</string>
+    <string name="uploading_profile_data">تحميل بيانات الملف الشخصي</string>
+    <string name="cancle_order_note">هل أنت واثق! تريد النظام cancle؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="ord_am">كمية الطلب</string>
+    <string name="thank_you">شكرا</string>
+    <string name="payment">دفع</string>
+    <string name="password_too_short">كلمة المرور قصيرة جدا</string>
+    <string name="invalide_email_address">عنوان البريد الإلكتروني invalide</string>
+    <string name="no_internet">أنا آسف! غير متصل بالإنترنت</string>
+    <string name="order_no">رقم الطلب:\u0020</string>
+    <string name="pending">بالانتظار</string>
+    <string name="confirm">تأكيد</string>
+    <string name="delivered">التسليم</string>
+    <string name="outfordeliverd">في الطريق \ جاهز للتوصيل</string>
+    <string name="cancle">لا</string>
+    <string name="date_d">تاريخ:</string>
+    <string name="time_t">الوقت:</string>
+    <!--Method String-->
+    <string name="method_one">التقط</string>
+    <string name="method_two">الباكالاه</string>
+    <string name="method_three">بطاقات</string>
+    <string name="method_four">نيتبانكينج</string>
+
+    <string name="search_msg">البحث عن الخضروات والفواكه ، وما إلى ذلك</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="old_password">كلمة المرور السابقة (مطلوب)</string>
+    <string name="new_password">كلمة المرور الجديدة (مطلوب)</string>
+    <string name="confirm_password">تأكيد كلمة المرور (مطلوب)</string>
+    <string name="password_not_same">تأكيد كلمة المرور وكلمة المرور الجديدة ليست هي نفسها.</string>
+    <string name="delivery_charge">تكاليف الشحن.:\u0020</string>
+    <string name="amount">الكمية:\u0020</string>
+    <string name="search_here">ابحث هنا ...</string>
+    <string name="total_amount">المبلغ الإجمالي:\u0020</string>
+    <string name="search">بحث</string>
+    <string name="search_text">بحث المنتجات والعلامات التجارية وأكثر من ذلك</string>
+    <string name="enter_keyword">يرجى إدخال الكلمة</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تحرير</string>
+    <string name="description">وصف:</string>
+
+    <!-- row_delivery_time.xml -->
+    <string name="tv_deli_socity">مجتمع:</string>
+    <string name="tv_deli_mobile">ليس موبايل.:</string>
+    <string name="tv_deli_pin">رمز PIN:</string>
+
+    <!-- delivery_payment_detail_fragment.java -->
+    <string name="tv_deli_pay_ontime">في الوقت المحدد:\u0020</string>
+    <string name="tv_deli_pay_address">عنوان:\u0020</string>
+
+    <!-- delivery_get_address_adapter.java -->
+    <string name="reciver_name">اسم المستلم:\u0020</string>
+    <string name="reciver_mobile">رقم الهاتف المحمول:\u0020</string>
+    <string name="pincode">رمز PIN:\u0020</string>
+    <string name="house_no">منزل لا.:\u0020</string>
+    <string name="socity">المنطقة:\u0020</string>
+
+    <string name="h_orders">أوامر</string>
+    <string name="h_rewards">المكافآت</string>
+    <string name="h_wallet">محفظة نقود</string>
+    <string name="h_cart">عربة التسوق</string>
+
+    <string name="language">لغة</string>
+    <string name="status_stop">مشغل بواسطة<font color="#f233cc01">Hixol</font></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">جزء Hello على الأبيض</string>
+    <string name="home_fragement_bottom">أضف $ 150،000 واربح<font color='#ff0000'>المنزل الحر.</font></string>
+
+</resources>

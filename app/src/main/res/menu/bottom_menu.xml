@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/error"
+            android:title="profile" />
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@drawable/error"
+            android:title="reservations" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/error"
+            android:title="history" />
+
+        <item
+            android:id="@+id/nav_incidents"
+            android:icon="@drawable/error"
+            android:title="incidents" />
+
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/error"
+            android:title="transactions" />
+
+    </group>
+</menu>

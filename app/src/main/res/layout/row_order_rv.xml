@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    app:cardElevation="@dimen/space_3"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="4dp">
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_below="@+id/top_layout"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:layout_width="wrap_content"
+                android:text="Tuesday 12 January 2020 at 13h50"
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14dp"
+                android:id="@+id/tv_order_time"
+                android:layout_height="wrap_content">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+            <com.gogrocerdb.tcc.util.CustomTextView
+                android:id="@+id/tv_order_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_order_time"
+                android:gravity="end"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/space_8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/status"
+                android:textColor="@color/color_3"
+                android:textSize="@dimen/text_size_normal" />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_below="@+id/tv_order_time"
+                android:src="@drawable/receipt"
+                android:tint="@color/color_2"
+                android:id="@+id/iv_receipt"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tv_order_time"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/iv_receipt"
+                android:layout_height="wrap_content">
+
+                <com.gogrocerdb.tcc.util.CustomBoldTextView
+                    android:id="@+id/tv_recivername"
+                    android:layout_width="wrap_content"
+                    android:text="Ride"
+                    android:textSize="13dp"
+                    android:layout_height="wrap_content">
+
+                </com.gogrocerdb.tcc.util.CustomBoldTextView>
+                <com.gogrocerdb.tcc.util.CustomBoldTextView
+                   android:id="@+id/tv_recivernmobile"
+                    android:layout_width="wrap_content"
+                    android:text="Aurelie Dupont"
+                    android:textSize="13dp"
+                    android:layout_height="wrap_content">
+
+                </com.gogrocerdb.tcc.util.CustomBoldTextView>
+                <com.gogrocerdb.tcc.util.CustomBoldTextView
+                    android:id="@+id/tv_societyname"
+                    android:layout_width="wrap_content"
+                    android:text="Bank Card"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content">
+
+                </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+            </LinearLayout>
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:id="@+id/tv_order_price"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
+                android:text="34,79 \u20ac"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/price_bg"
+                android:layout_height="wrap_content">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

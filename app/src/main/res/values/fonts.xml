@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CircularStd_Black" translatable="false">Font/CircularStd-Black.ttf</string>
+    <string name="CircularStd_Bold" translatable="false">Font/CircularStd-Bold.ttf</string>
+    <string name="CircularStd_Book" translatable="false">Font/CircularStd-Book.ttf</string>
+    <string name="CircularStd_Medium" translatable="false">Font/CircularStd-Medium.ttf</string>
+
+
+</resources>

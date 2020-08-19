@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mapLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <!--Top Layout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/top_layout"
+        android:background="@drawable/toolbar_bg"
+        android:layout_height="150dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rides_count_layout"
+        android:layout_height="wrap_content">
+        <com.gogrocerdb.tcc.util.CustomBoldTextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="00,00 \u20ac"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/tv_today_rides"
+            android:textSize="28dp"
+            android:background="@drawable/circle_shape">
+
+        </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+
+        <com.gogrocerdb.tcc.util.CustomBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tv_today_rides"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="19dp"
+            android:text="Store2Door Rider"
+            android:layout_height="wrap_content">
+
+        </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+    </RelativeLayout>
+
+    <!--Go Online-->
+
+    <!--Top Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/toolbar_bg"
+        android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/book_ride_bg">
+
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Pending Orders"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:id="@+id/no_pending_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="5dp">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/book_ride_bg">
+
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:text="Delivered Orders"
+                android:layout_marginTop="10dp">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+            <com.gogrocerdb.tcc.util.CustomBoldTextView
+                android:id="@+id/no_deliverd_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="5dp">
+
+            </com.gogrocerdb.tcc.util.CustomBoldTextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+<!--    <com.hixol.sdtrasnferdriver.CustomFont.CustomButton-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:text="@string/go_online"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:paddingTop="15dp"-->
+<!--        android:layout_marginBottom="65dp"-->
+<!--        android:id="@+id/btn_reserve_ride"-->
+<!--        android:textSize="16dp"-->
+<!--        android:paddingBottom="15dp"-->
+<!--        android:background="@drawable/go_online_bg"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </com.hixol.sdtrasnferdriver.CustomFont.CustomButton>-->
+
+
+</RelativeLayout>

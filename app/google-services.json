@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30095725332",
+    "firebase_url": "https://store2door-32fd2.firebaseio.com",
+    "project_id": "store2door-32fd2",
+    "storage_bucket": "store2door-32fd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30095725332:android:9b9224f9899887cc562801",
+        "android_client_info": {
+          "package_name": "com.gogrocerdb.tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30095725332-m1qs0iq4327u5bir1gp4nel0m3q0dg83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnDsrSlG9HEmgZRQFJUXBDm1_l9MHJW_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30095725332-m1qs0iq4327u5bir1gp4nel0m3q0dg83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

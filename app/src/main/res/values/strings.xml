@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name" translatable="false">Store2Door Delivery</string>
+    <string name="currency" translatable="false">Rs.</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="txtCredits" translatable="false"><a href="http://www.google.com">Google</a></string>
+    <string name="tit" translatable="false">Title</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_search" translatable="false">Search</string>
+    <string name="search_hint" translatable="false">Type Here…</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="prd_id" translatable="false">Product ID</string>
+    <string name="orderdetail" translatable="false">Order Detail</string>
+    <string name="nav_terms" translatable="false">Terms &amp; Conditions</string>
+    <string name="user_id" translatable="false">User ID</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!-- string.xml -->
+    <string name="nav_dashboard" translatable="false">Dashboard</string>
+    <string name="nav_app_user" translatable="false">App User</string>
+    <string name="nav_Products" translatable="false">Products</string>
+    <string name="nav_stock_update" translatable="false">Stock Update</string>
+    <string name="nav_order" translatable="false">Delivered Orders</string>
+
+    <string name="nav_stock" translatable="false">Stock</string>
+    <string name="nav_edit_profile" translatable="false">Edit Profile</string>
+    <string name="nav_logout" translatable="false">Logout</string>
+    <string name="orders" translatable="false">Orders</string>
+    <string name="pastorder" translatable="false">Past Order</string>
+    <!-- activity_login.xml -->
+    <string name="et_login_phone_hint" translatable="false">Mobile Number (Required)</string>
+    <string name="tv_login_email" translatable="false">ID Number</string>
+    <string name="tv_login_password" translatable="false">Password (Required)</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="tv_login_note" translatable="false">Before continue with application you must verify your mobile number. Our system will sent you OTP code on registered mobile number</string>
+    <string name="btn_signin" translatable="false">SIGN IN</string>
+    <string name="assign_ord_de" translatable="false">Assign Order To Delivered</string>
+    <!-- activity_register.xml -->
+    <string name="tv_reg" translatable="false">Register</string>
+    <string name="nm" translatable="false">Name</string>
+    <string name="ph" translatable="false">Phone</string>
+    <string name="em" translatable="false">Email</string>
+    <string name="tv_reg_name_hint" translatable="false">Name (Required)</string>
+    <string name="tv_reg_pincode" translatable="false">Pincode/Area Code/Zip (Required)</string>
+    <string name="tv_reg_socity" translatable="false">Society/Flat(Required)</string>
+    <string name="btn_reg_socity_choose" translatable="false">Choose Society...</string>
+    <string name="tv_reg_house" translatable="false">House Number(Required)</string>
+    <string name="btn_reg_update" translatable="false">Update Profile</string>
+    <string name="et_reg_search" translatable="false">Search Society...</string>
+    <string name="tv_reg_note" translatable="false">Note : service available for RAJKOT only</string>
+    <string name="tv_reg_address" translatable="false">Address(Required)</string>
+    <string name="et_reg_address" translatable="false">Complete Address</string>
+
+    <!-- fragment_cart.xml -->
+    <string name="tv_cart_title" translatable="false">Cart</string>
+    <string name="tv_cart_clear" translatable="false">Clear All Product</string>
+    <string name="tv_cart_checkout" translatable="false">Continue Checkout</string>
+    <string name="tv_cart_total" translatable="false">Total:\u0020</string>
+    <string name="tv_cart_item" translatable="false">Items:\u0020</string>
+    <string name="clr" translatable="false">clear</string>
+    <string name="chs" translatable="false">Choose</string>
+    <string name="firebas" translatable="false">Firebase Activity</string>
+    <string name="up" translatable="false">Upload</string>
+    <string name="dis" translatable="false">Display Token</string>
+    <string name="sv" translatable="false">save</string>
+    <string name="tv_cart_rs" translatable="false">\u0020Rs</string>
+
+    <!-- fragment_delivery_time.xml -->
+    <string name="tv_del_title" translatable="false">Delivery Date/Time</string>
+    <string name="tv_del_address" translatable="false">Delivery Address</string>
+    <string name="et_del_address_hint" translatable="false">Enter Delivery address..</string>
+    <string name="tv_del_continue" translatable="false">Continue With Time</string>
+    <string name="tv_del_date" translatable="false">Select delivery date</string>
+    <string name="tv_del_time" translatable="false">Select delivery time</string>
+    <string name="tv_del_date_time" translatable="false">Delivery Data/Time</string>
+    <string name="tv_total_item_amount" translatable="false">Total Items And Amount</string>
+    <string name="tv_total_total" translatable="false">Total Amount </string>
+
+    <!-- fragment_home.xml -->
+    <string name="tv_home_cat" translatable="false">Products</string>
+    <string name="tv_home_view" translatable="false">View all ></string>
+
+    <!-- fragment_Wallet.xml -->
+    <string name="tv_app_name" translatable="false">Wallet</string>
+    <string name="st" translatable="false">Status</string>
+    <!-- fragment_Reward.xml -->
+    <string name="tv_toolbar_name" translatable="false">Rewards</string>
+    <!-- row_product_rv.xml -->
+    <string name="tv_pro_add" translatable="false">Add</string>
+    <string name="tv_pro_update" translatable="false">Update</string>
+    <string name="tv_pro_price" translatable="false">Price per\u0020</string>
+    <string name="inc" translatable="false">Increment</string>
+    <string name="cat" translatable="false">Category Id</string>
+    <string name="un_v" translatable="false">Unit Value</string>
+    <string name="mark" translatable="false">Mark Delivered</string>
+    <string name="pr" translatable="false">Price</string>
+    <string name="tv_pro_rs" translatable="false">\u0020Rs.\u0020</string>
+    <string name="tv_pro_total" translatable="false">Total: </string>
+    <string name="status" translatable="false">Status:</string>
+    <!-- fragment_confirm_order.xml -->
+    <string name="tv_conf_order_title" translatable="false">Payment Details</string>
+
+    <!-- fragment_my_order_detail.xml -->
+    <string name="fire" translatable="false">Firebase</string>
+    <string name="tv_order_cancle" translatable="false">Cancel Order</string>
+    <string name="tv_order_summery" translatable="false">Summary</string>
+    <string name="tv_order_total" translatable="false">Total: Rs.</string>
+    <string name="tv_order_qty" translatable="false">Qty</string>
+    <string name="tv_order_rs" translatable="false">Rs.</string>
+    <string name="unit" translatable="false">Unit</string>
+    <string name="add_pur" translatable="false">Add Purchase</string>
+    <!-- fragment_order_thanks.xml -->
+    <string name="tv_thanks_title" translatable="false">Thank you for your order.</string>
+    <string name="tv_thanks_home" translatable="false">Continue home</string>
+    <string name="tv_thanks_order" translatable="false">Track my order</string>
+
+    <!-- Forgot password -->
+    <string name="forgot" translatable="false">Forgot Password ?</string>
+
+    <!-- Code message and concat  string -->
+    <string name="my_order" translatable="false">Delivered Orders</string>
+    <string name="pending_orders" translatable="false">Pending Orders</string>
+    <string name="edit_profile" translatable="false">Edit Profile</string>
+    <string name="delivery" translatable="false">Delivery</string>
+    <string name="delivery_date" translatable="false">"Delivery Date: </string>
+    <string name="please_select_date" translatable="false">Please select date</string>
+    <string name="no_rcord_found" translatable="false">No record found</string>
+    <string name="connection_time_out" translatable="false">Connection Time out</string>
+    <string name="add_delivery_address" translatable="false">Add Delivery Address</string>
+    <string name="order_now" translatable="false">Order Now</string>
+    <string name="payment_detail" translatable="false">Payment Details</string>
+    <string name="delivery_time" translatable="false">Delivery time</string>
+    <string name="please_enter_pincode" translatable="false">Please enter pincode</string>
+    <string name="receiver_mobile_number" translatable="false">Receiver Mobile Number(Required)</string>
+    <string name="receiver_name_req" translatable="false">Receiver Name(Required)</string>
+    <string name="phone_too_short" translatable="false">Phone Too short</string>
+    <string name="please_add_address" translatable="false">Please add address</string>
+    <string name="please_select_address" translatable="false">Please select address</string>
+    <string name="please_select_date_time" translatable="false">Please select date and time</string>
+    <string name="profile_updated" translatable="false">Profile updated</string>
+    <string name="uploading_profile_data" translatable="false">Uploading profile data</string>
+    <string name="cancle_order_note" translatable="false">Are you sure!\nyou want to cancle order ?</string>
+    <string name="no" translatable="false">No</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="thank_you" translatable="false">Thank you</string>
+    <string name="ord_am" translatable="false">Order Ammount</string>
+    <string name="pay_m" translatable="false">Payment Mode</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="password_too_short" translatable="false">Password Too short</string>
+    <string name="invalide_email_address" translatable="false">Invalide Email Address</string>
+    <string name="no_internet" translatable="false">Sorry! Not connected to internet</string>
+    <string name="order_no" translatable="false">Order No.:\u0020</string>
+    <string name="pending" translatable="false">Pending</string>
+    <string name="confirm" translatable="false">Confirmed</string>
+    <string name="delivered" translatable="false">Delivered</string>
+    <string name="outfordeliverd" translatable="false">Out for Delivery</string>
+    <string name="cancle" translatable="false">Cancle</string>
+    <string name="date_d" translatable="false">Date:</string>
+    <string name="time_t" translatable="false">Time:</string>
+    <string name="search_msg" translatable="false">Search Vegetables, Fruit etc</string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="old_password" translatable="false">Old Password (Required)</string>
+    <string name="new_password" translatable="false">New Password (Required)</string>
+    <string name="confirm_password" translatable="false">Confirm Password (Required)</string>
+    <string name="password_not_same" translatable="false">Confirm Password and New Password not same.</string>
+    <string name="delivery_charge" translatable="false">Delivery Charges.:\u0020</string>
+    <string name="amount" translatable="false">Amount:\u0020</string>
+    <string name="search_here" translatable="false">Search here...</string>
+    <string name="total_amount" translatable="false">Total Amount:\u0020</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="enter_keyword" translatable="false">Please Enter Keyword</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="description" translatable="false">Description:</string>
+    <string name="assign" translatable="false">Assign Order Successfully</string>
+    <string name="cust_name" translatable="false">Customer Name</string>
+    <string name="back" translatable="false">Go Back</string>
+    <string name="order_id" translatable="false">Order ID: </string>
+    <string name="continue_btn" translatable="false">Continue</string>
+    <string name="btn_snd" translatable="false">Send</string>
+    <string name="cust_ph" translatable="false">Customer Phone</string>
+    <string name="today_order" translatable="false">Today Order</string>
+    <string name="next_order" translatable="false">Next Day Order</string>
+    <!-- row_delivery_time.xml -->
+    <string name="tv_deli_socity" translatable="false">Society:</string>
+    <string name="tv_deli_mobile" translatable="false">Mobile No.:</string>
+    <string name="tv_deli_pin" translatable="false">Pincode:</string>
+    <string name="rec_nm" translatable="false">Receiver: </string>
+    <string name="rec_num" translatable="false">Receiver Number: </string>
+    <string name="rec_num1" translatable="false">Receiver No: </string>
+    <string name="hus_n" translatable="false">House No.</string>
+    <string name="tt_t" translatable="false">Total Items: </string>
+    <string name="tracking_st" translatable="false">Tracking Status On:</string>
+    <!-- delivery_payment_detail_fragment.java -->
+    <string name="tv_deli_pay_ontime" translatable="false">On time :\u0020</string>
+    <string name="tv_deli_pay_address" translatable="false">Address:\u0020</string>
+    <string name="place_on" translatable="false">Placed On:</string>
+    <!-- delivery_get_address_adapter.java -->
+    <string name="reciver_name" translatable="false">Receiver Name:\u0020</string>
+    <string name="reciver_mobile" translatable="false">Receiver Mobile No.:\u0020</string>
+    <string name="pincode" translatable="false">Pincode:\u0020</string>
+    <string name="house_no" translatable="false">House No.:\u0020</string>
+    <string name="socity" translatable="false">Society:\u0020</string>
+
+    <string name="status_stop" translatable="false">Powered By <font color='green'>Hixol</font></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile" translatable="false">Profile</string>
+
+    <string name="earnings_available">Earnings Available</string>
+
+
+    <string name="no_pending_order" translatable="false">No Order is Pending to Deliver</string>
+
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="launch_activity">Launch activity</string>
+
+</resources>
